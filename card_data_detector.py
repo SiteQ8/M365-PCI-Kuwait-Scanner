@@ -1,7 +1,7 @@
 """
 M365 PCI Kuwait Scanner - Card Data Detection Module
 
-This module provides advanced card data detection capabilities for Microsoft 365
+This module provides card data detection capabilities for Microsoft 365
 environments with specialized patterns for Kuwait financial sector.
 
 Author: Ali AlEnezi
@@ -19,7 +19,7 @@ import luhn  # For credit card validation
 logger = logging.getLogger(__name__)
 
 class CardDataDetector:
-    """Advanced card data detection engine for Microsoft 365 environments."""
+    """Card data detection engine for Microsoft 365 environments."""
     
     def __init__(self, config: Dict):
         """Initialize the card data detector with configuration."""
