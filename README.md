@@ -1,4 +1,4 @@
-# M365 PCI Kuwait Scanner 🏦
+# M365 PCI Kuwait Scanner
 
 ## Microsoft 365 PCI DSS Compliance Scanner for Kuwait Financial Sector
 
@@ -10,44 +10,44 @@
 
 ---
 
-## 👨‍💻 About the Author
+## About the Author
 
 **Ali AlEnezi**  
 🔒 Kuwait  
 🎓 SANS/GIAC Certified Security Professional  
 🏦 Financial Services Security Specialist  
 
-- 📧 Email: [site@hotmail.com](mailto:site@hotmail.com)
-- 💼 LinkedIn: [linkedin.com/in/alenizi](https://www.linkedin.com/in/alenizi/)
-- 🌍 Location: Kuwait
-- 🏢 Expertise: PCI DSS, Banking Cybersecurity, Microsoft 365 Security
+- Email: [site@hotmail.com](mailto:site@hotmail.com)
+- LinkedIn: [linkedin.com/in/alenizi](https://www.linkedin.com/in/alenizi/)
+- Location: Kuwait
+- Expertise: PCI DSS, Banking Cybersecurity, Microsoft 365 Security
 
 ---
 
-## 🏦 Key Features
+## Key Features
 
-### 🔍 Card Data Detection Engine
+### Card Data Detection Engine
 - **Primary Account Number (PAN) Detection** - Advanced pattern recognition for all major card brands
 - **CVV/CVC Pattern Recognition** - Secure code identification and classification
 - **Track Data Analysis** - Magnetic stripe data detection and validation
 - **Cardholder Information Classification** - Name, address, and personal data protection
 - **Kuwait-Specific Card Patterns** - Local banking card formats and structures
 
-### 🛡️ PCI DSS Compliance Scanning
+### PCI DSS Compliance Scanning
 - **Complete PCI DSS v4.0 Coverage** - All 12 requirements with 300+ validation points
 - **Microsoft 365 Deep Integration** - SharePoint, OneDrive, Exchange, Teams, Power Platform
 - **Data Location Mapping** - Comprehensive cardholder data environment (CDE) discovery
 - **Access Control Validation** - Role-based access and privilege analysis
 - **Encryption Assessment** - Data-at-rest and in-transit protection verification
 
-### 🇰🇼 Kuwait Financial Regulation Compliance
+### Kuwait Financial Regulation Compliance
 - **Central Bank of Kuwait (CBK) Framework** - Complete cybersecurity requirement coverage
 - **Kuwait Banking Law Compliance** - Local regulatory requirement validation
 - **Anti-Money Laundering (AML) Checks** - Transaction monitoring and reporting compliance
 - **Consumer Protection Guidelines** - Customer data protection and privacy validation
 - **Sharia Compliance Considerations** - Islamic banking regulatory requirements
 
-### 📊 Professional Reporting & Analytics
+### Professional Reporting & Analytics
 - **Executive Dashboards** - Board-ready compliance scorecards and risk metrics
 - **CBK Audit Reports** - Regulator-compliant documentation and evidence
 - **PCI QSA Documentation** - Qualified Security Assessor report generation
@@ -56,7 +56,7 @@
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 - Microsoft 365 E3/E5 license with compliance features
@@ -116,9 +116,9 @@ scan_settings:
 
 ---
 
-## 🎯 Scan Types and Use Cases
+## Scan Types and Use Cases
 
-### 📋 Quick Assessment (15-30 minutes)
+### Quick Assessment (15-30 minutes)
 ```bash
 python scanner.py --scan-type quick --org-type bank
 ```
@@ -126,7 +126,7 @@ python scanner.py --scan-type quick --org-type bank
 - **Coverage**: Critical PCI requirements and card data exposure
 - **Output**: Executive summary and high-priority findings
 
-### 🔍 Comprehensive Audit (2-4 hours)
+### Comprehensive Audit (2-4 hours)
 ```bash
 python scanner.py --scan-type comprehensive --include-cbk --generate-report
 ```
@@ -134,7 +134,7 @@ python scanner.py --scan-type comprehensive --include-cbk --generate-report
 - **Coverage**: Complete PCI DSS v4.0 + CBK cybersecurity framework
 - **Output**: Full audit documentation and evidence collection
 
-### 🏦 Banking-Specific Scan
+### Banking-Specific Scan
 ```bash
 python scanner.py --scan-type banking --kuwait-focus --aml-check
 ```
@@ -142,7 +142,7 @@ python scanner.py --scan-type banking --kuwait-focus --aml-check
 - **Coverage**: CBK requirements, AML compliance, consumer protection
 - **Output**: Regulator-ready compliance reports
 
-### 💳 Card Data Discovery
+### Card Data Discovery
 ```bash
 python scanner.py --scan-type card-discovery --sensitivity-high
 ```
@@ -152,7 +152,7 @@ python scanner.py --scan-type card-discovery --sensitivity-high
 
 ---
 
-## 📊 Sample Reports and Outputs
+## Sample Reports and Outputs
 
 ### Executive Dashboard
 ```
@@ -200,7 +200,7 @@ PCI DSS Requirements Status:
 
 ---
 
-## 🏗️ Architecture and Components
+## Architecture and Components
 
 ### Core Scanning Modules
 
@@ -233,7 +233,7 @@ PCI DSS Requirements Status:
 
 ---
 
-## 🔧 Advanced Configuration
+## Advanced Configuration
 
 ### Custom Card Patterns
 ```yaml
@@ -293,7 +293,7 @@ compliance_tools:
 
 ---
 
-## 📋 Compliance Frameworks Coverage
+## Compliance Frameworks Coverage
 
 ### PCI DSS v4.0 Requirements
 - ✅ **Requirement 1**: Install and maintain network security controls
@@ -325,7 +325,7 @@ compliance_tools:
 
 ---
 
-## 🎯 Target Organizations
+## Target Organizations
 
 ### Primary Target Sectors
 - **Commercial Banks** - All CBK-licensed commercial banking institutions
@@ -343,7 +343,7 @@ compliance_tools:
 
 ---
 
-## 🚨 Security and Privacy Considerations
+## Security and Privacy Considerations
 
 ### Data Protection Measures
 - **No Sensitive Data Storage** - Scanner never stores actual card data
@@ -360,7 +360,7 @@ compliance_tools:
 
 ---
 
-## 🔗 Integration Capabilities
+## Integration Capabilities
 
 ### Microsoft 365 Services
 - **Microsoft Graph API** - Core data access and analysis
@@ -383,7 +383,7 @@ compliance_tools:
 
 ---
 
-## 📞 Support and Professional Services
+## Support and Professional Services
 
 ### Community Support
 - **GitHub Issues** - Bug reports and feature requests
@@ -405,7 +405,7 @@ compliance_tools:
 
 ---
 
-## ⚖️ Legal and Compliance Disclaimers
+## Legal and Compliance Disclaimers
 
 ### Usage Authorization
 - ✅ **Authorized Use Only** - Only scan Microsoft 365 environments you own or have permission to assess
@@ -421,20 +421,20 @@ compliance_tools:
 
 ---
 
-## 📄 License and Attribution
+## License and Attribution
 
 ### Licensing
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Attribution
-- **Microsoft Graph APIs** - For comprehensive M365 data access capabilities
+- **Microsoft Graph APIs** - For M365 data access capabilities
 - **PCI Security Standards Council** - For PCI DSS framework and requirements
 - **Central Bank of Kuwait** - For cybersecurity framework guidance
 - **Open Source Security Community** - For threat intelligence and best practices
 
 ---
 
-**🛡️ Securing Kuwait's Financial Sector Through Advanced Compliance Technology**
+**Securing Kuwait's Financial Sector Through Advanced Compliance Technology**
 
 *M365 PCI Kuwait Scanner - Where regulatory compliance meets technological innovation*
 
